@@ -2,7 +2,7 @@
 
 *Branch `claude/iphone-system-analysis-3fhpk5`, 13 September 2026.*
 
-**Status:** no iPhone data has reached me yet. This repository contains no diagnostic files, and a search of your Google Drive found nothing that looks like one. This page explains what the 300 MB file is, three ways to get it to me, and what you can check on the phone right now. Once the data arrives I will write `iphone-diagnosis-report.md` with a ranked list of what needs fixing.
+**Status:** the data arrived on 13 September through the Dropbox folder "Iphone system" (two sysdiagnose archives). The analysis is in `iphone-diagnosis-report.md`. This page remains the guide for what the file is, how to deliver one, and what to check on the phone.
 
 ## 1. What the 300 MB file is
 
