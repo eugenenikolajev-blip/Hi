@@ -94,6 +94,19 @@ Reading the result:
 - **Speakerphone or front video silent:** top microphone. Part: the earpiece speaker / top sensor flex.
 - **Everything silent:** not a microphone at all; audio codec or software. Restore iOS via computer (DFU) before any repair; if still silent, Apple service (logic board), not a shop.
 
+### Result of the test (13 Sep, evening)
+
+Tests 1 to 4 passed (bottom and top microphones fine, front-camera video fine). Test 5: rear-camera video from the Camera app sounds bad, the same video message in WhatsApp sounds fine. Analysis of the two clips you sent:
+
+| Clip | Level | Spectrum | Verdict |
+|---|---|---|---|
+| Camera app, rear camera (IMG_9451.mov, stereo AAC 48 kHz) | −43 dBFS average, 30 % of frames near silence | almost nothing above 3 kHz: energy at 4 to 8 kHz is 51 dB below the total | muffled, "under water" |
+| WhatsApp video message (mono AAC 44.1 kHz) | −33 dBFS average | full spectrum to 10 kHz, speech consonants present | normal |
+
+Both Camera channels are muffled identically, no clipping, no clicks, no dropouts, no hum. The same audio software produced a clean recording for WhatsApp, so the software path is fine. For rear-camera video the Camera app takes its sound from the rear microphone on the camera bump; WhatsApp uses the bottom microphone. **The rear microphone is physically muffled: its port is blocked, or the microphone itself is damaged.**
+
+Fix in this order: (1) case and lens protector off, clean the small hole next to the flash on the camera bump with a soft dry brush or a wooden toothpick, no liquids, no compressed air; record again with the Camera app; (2) still muffled: replace the rear microphone. On the iPhone 16 Pro Max it sits on the flash flex assembly (flash and rear microphone on one flex) inside the camera bump; an inexpensive part, about an hour at a repair shop, no Apple parts pairing involved. Nothing else on the phone needs replacing for this symptom.
+
 ## 4. Stability data behind section 2
 
 The phone keeps its crash reports for about a month. The index (`summaries/crashes_and_spins.log`) for 14 August to 13 September:
