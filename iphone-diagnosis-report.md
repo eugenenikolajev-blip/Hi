@@ -107,6 +107,22 @@ Both Camera channels are muffled identically, no clipping, no clicks, no dropout
 
 Fix in this order: (1) case and lens protector off, clean the small hole next to the flash on the camera bump with a soft dry brush or a wooden toothpick, no liquids, no compressed air; record again with the Camera app; (2) still muffled: replace the rear microphone. On the iPhone 16 Pro Max it sits on the flash flex assembly (flash and rear microphone on one flex) inside the camera bump; an inexpensive part, about an hour at a repair shop, no Apple parts pairing involved. Nothing else on the phone needs replacing for this symptom.
 
+
+### The part to order (22 Sep)
+
+On the iPhone 16 Pro / 16 Pro Max the rear microphone and the LED flash sit on the same flex as the wireless-charging (MagSafe/NFC) coil, glued to the back glass: teardowns describe one flex "from the wireless charging coil to the rear microphone to the flash", and iFixit's listing for the coil assembly states it includes the rear microphone. So the part is the **wireless charging coil / NFC flex with flash and rear microphone** for iPhone 16 Pro Max (models A3295, A3296, A3297, A3084). Sellers name it differently: "Wireless Charging Antenna Assembly" (iFixit), "Wireless NFC Charging with Flash Flex cable" (eBay UK), "Flash Light Flex Cable" (Mobio Distribution, trade only).
+
+| Source | Name on the site | Price | Notes |
+|---|---|---|---|
+| iFixit | iPhone 16 Pro Max Wireless Charging Antenna Assembly | $64.99 | new, description confirms rear microphone included; ships from US/EU |
+| eBay UK, seller UKTEK (Manchester) | Apple iPhone 16 Pro Max Replacement Wireless NFC Charging with Flash Flex cable, item 117031916704 | £8.89 | new aftermarket; cheap copies can have a worse mic and weaker MagSafe charging |
+| eBay UK, seller oksa_hj (York) | Apple iPhone 16 Pro Max Genuine NFC Antenna Flex Cable with Rear LED Flash Light, item 366620300353 | £18.06 | genuine pull, but listed "for parts or not working" with a wrong compatibility field: ask the seller before buying |
+| Mobio Distribution (UK trade) | Flash Light Flex Cable (Reclaimed) for iPhone 16 Pro Max | trade login | genuine pulled part, for repair shops |
+
+Not the part: "Main Microphone" / "Microphone Flex" (that is the bottom microphone by the USB-C port), "Power Button Flex" (no flash on it in this model), "Earpiece Speaker Flex" (top microphone).
+
+Fitting: the back glass has to come off (heat, glued), and the coil is re-glued to the glass; a repair-shop job, about an hour. Ask the shop to fit a genuine pulled part; a shop can source it from Mobio or MobileSentrix. Before ordering anything: the cleaning step above and a re-test.
+
 ## 4. Stability data behind section 2
 
 The phone keeps its crash reports for about a month. The index (`summaries/crashes_and_spins.log`) for 14 August to 13 September:
